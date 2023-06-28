@@ -5,7 +5,7 @@ import {
 } from '@microsoft/sp-listview-extensibility';
 
 import * as strings from 'FieldCustomizerFieldCustomizerStrings';
-//import styles from './FieldCustomizerFieldCustomizer.module.scss';
+//git import styles from './FieldCustomizerFieldCustomizer.module.scss';
 
 /**
  * If your field customizer uses the ClientSideComponentProperties JSON input,
@@ -37,7 +37,7 @@ export default class FieldCustomizerFieldCustomizer
     
     const result: number = operandA + operandB;
 
-    event.domElement.innerText = `${operandA} + ${operandB} = <strong>${result}</strong>`;
+    event.domElement.innerHTML = `${operandA} + ${operandB} = <strong>${result}</strong>`;
   }
 
   public onDisposeCell(event: IFieldCustomizerCellEventParameters): void {

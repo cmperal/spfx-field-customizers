@@ -4,9 +4,9 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://cmperal.sharepoint.com/sites/DeveloperSite/SitePages/myPage.aspx",
+      "pageUrl": "https://cmperal.sharepoint.com/sites/DeveloperSite/Lists/Simple%20Math/AllItems.aspx",
       "fieldCustomizers": {
-        "InternalFieldName": {
+        "Result": {
           "id": "3b2b9c0b-ed98-40d3-ba7b-949a580fb3ad",
           "properties": {
             "sampleText": "Value"
@@ -15,7 +15,7 @@
       }
     },
     "fieldCustomizer": {
-      "pageUrl": "https://cmperal.sharepoint.com/sites/DeveloperSite/SitePages/myPage.aspx",
+      "pageUrl": "https://cmperal.sharepoint.com/sites/DeveloperSite/Lists/Simple%20Math/AllItems.aspx",
       "fieldCustomizers": {
         "InternalFieldName": {
           "id": "3b2b9c0b-ed98-40d3-ba7b-949a580fb3ad",
