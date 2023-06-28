@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cmperal.sharepoint.com/sites/DeveloperSite/SitePages/myPage.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "3b2b9c0b-ed98-40d3-ba7b-949a580fb3ad",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "fieldCustomizer": {
+      "pageUrl": "https://cmperal.sharepoint.com/sites/DeveloperSite/SitePages/myPage.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "3b2b9c0b-ed98-40d3-ba7b-949a580fb3ad",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
